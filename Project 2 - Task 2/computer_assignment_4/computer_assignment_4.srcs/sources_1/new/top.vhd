@@ -84,7 +84,6 @@ end component;
 
 signal en, clr: std_logic;
 signal accumulator: std_logic_vector(7 downto 0);
-signal number, num1, num2, num3, num4: integer;
 signal hex1, hex2, hex3, hex4: std_logic_vector(3 downto 0);
 signal w1,w2,w3,w4,w5,w6,w7: std_logic_vector(3 downto 0);
 
@@ -105,11 +104,13 @@ led <= sw;
 
 process(en, clr)
 begin
-if rising_edge(clk) then
+--if rising_edge(clk) then
 
 if(en = '1') then
     accumulator <= sw;
-elsif (en = '0') then
+    end if;
+    
+if (clr = '1') then
       accumulator(0) <= '0';
       accumulator(1) <= '0';
       accumulator(2) <= '0';
@@ -120,34 +121,36 @@ elsif (en = '0') then
       accumulator(7) <= '0';
 end if;
 
-end if;
+--end if;
 
 end process;
 
-process(accumulator)
+process(accumulator, clk)
+
+variable number, num1, num2, num3, num4: integer;
+
 begin
 
 if rising_edge(clk) then
   
-    number <= to_integer(signed(accumulator));
-    number <= abs(number);
+    number := to_integer(signed(accumulator));
+    number := abs(number);
     
-    num1 <= number mod 10;
-    number <= number / 10;
-    num2 <= number mod 10;
-    number <= number / 10;
-    num3 <= number mod 10;
+    num1 := number mod 10;
+    number := number / 10;
+    num2 := number mod 10;
+    number := number / 10;
+    num3 := number mod 10;
     
     if(accumulator(7) = '1') then
-        num4 <= 11;
+        hex4 <= "1011";
     else
-        num4 <= 10;
+        hex4 <= "1010";
     end if;
     
     hex1 <= std_logic_vector(to_unsigned(num1, hex1'length));
     hex2 <= std_logic_vector(to_unsigned(num2, hex2'length));
     hex3 <= std_logic_vector(to_unsigned(num3, hex3'length));
-    hex4 <= std_logic_vector(to_unsigned(num4, hex4'length));
 
 end if;
 

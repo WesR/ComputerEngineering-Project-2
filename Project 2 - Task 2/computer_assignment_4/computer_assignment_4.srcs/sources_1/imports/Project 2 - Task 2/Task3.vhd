@@ -85,6 +85,7 @@ F <= '1' when hex_in = "0000" else
          '1' when hex_in = "0110" else
          '1' when hex_in = "1000" else
          '1' when hex_in = "1001" else
+         '1' when hex_in = "1011" else
          '0';         
                   
 end Behavioral;

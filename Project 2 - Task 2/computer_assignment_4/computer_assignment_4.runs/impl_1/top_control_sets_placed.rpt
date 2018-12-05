@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date         : Wed Dec  5 01:39:48 2018
+| Date         : Wed Dec  5 14:11:33 2018
 | Host         : RONAKPATEL60E1 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
 | Design       : top
@@ -23,8 +23,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Number of unique control sets                            |     2 |
-| Unused register locations in slices containing registers |     4 |
+| Number of unique control sets                            |     7 |
+| Unused register locations in slices containing registers |    18 |
 +----------------------------------------------------------+-------+
 
 
@@ -34,7 +34,8 @@ Table of Contents
 +--------+--------------+
 | Fanout | Control Sets |
 +--------+--------------+
-|    16+ |            2 |
+|      8 |            2 |
+|    16+ |            5 |
 +--------+--------------+
 
 
@@ -44,12 +45,12 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              76 |           23 |
+| No           | No                    | No                     |              34 |            8 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              32 |            4 |
+| No           | Yes                   | No                     |              64 |           10 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |               0 |            0 |
+| Yes          | Yes                   | No                     |              84 |           12 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
@@ -59,8 +60,13 @@ Table of Contents
 +----------------+---------------+---------------------+------------------+----------------+
 |  Clock Signal  | Enable Signal |   Set/Reset Signal  | Slice Load Count | Bel Load Count |
 +----------------+---------------+---------------------+------------------+----------------+
+|  clk_IBUF_BUFG |               | hex30               |                2 |              8 |
+|  clk_IBUF_BUFG |               | hex20               |                2 |              8 |
+|  d2/sglPulse   |               | d1/sglPulse         |                2 |             16 |
 |  clk_IBUF_BUFG |               | mux/counter_reg[15] |                4 |             32 |
-|  clk_IBUF_BUFG |               |                     |               23 |             76 |
+|  clk_IBUF_BUFG |               |                     |                8 |             34 |
+|  clk_IBUF_BUFG | d1/sel        | d1/k0               |                6 |             42 |
+|  clk_IBUF_BUFG | d2/sel        | d2/k0               |                6 |             42 |
 +----------------+---------------+---------------------+------------------+----------------+
 
 
