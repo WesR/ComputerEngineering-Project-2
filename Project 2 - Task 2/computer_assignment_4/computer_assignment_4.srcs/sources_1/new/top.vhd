@@ -1,35 +1,9 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 12/03/2018 09:50:40 PM
--- Design Name: 
--- Module Name: top - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity top is
     Port ( sw : in STD_LOGIC_VECTOR (7 downto 0);
@@ -104,34 +78,22 @@ led <= sw;
 
 process(en, clr)
 begin
---if rising_edge(clk) then
 
 if(en = '1') then
     accumulator <= sw;
     end if;
     
 if (clr = '1') then
-      accumulator(0) <= '0';
-      accumulator(1) <= '0';
-      accumulator(2) <= '0';
-      accumulator(3) <= '0';
-      accumulator(4) <= '0';
-      accumulator(5) <= '0';
-      accumulator(6) <= '0';
-      accumulator(7) <= '0';
+      accumulator <= "00000000";
 end if;
-
---end if;
 
 end process;
 
-process(accumulator, clk)
+process(accumulator)
 
 variable number, num1, num2, num3, num4: integer;
 
 begin
-
-if rising_edge(clk) then
   
     number := to_integer(signed(accumulator));
     number := abs(number);
@@ -151,8 +113,6 @@ if rising_edge(clk) then
     hex1 <= std_logic_vector(to_unsigned(num1, hex1'length));
     hex2 <= std_logic_vector(to_unsigned(num2, hex2'length));
     hex3 <= std_logic_vector(to_unsigned(num3, hex3'length));
-
-end if;
 
 end process;
 

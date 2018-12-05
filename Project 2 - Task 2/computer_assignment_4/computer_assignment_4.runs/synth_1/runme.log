@@ -14,34 +14,30 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 2360 
+INFO: Helper process launched with PID 7212 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 335.121 ; gain = 100.082
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 334.410 ; gain = 99.891
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:45]
-INFO: [Synth 8-3491] module 'encoder' declared at 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/Task3.vhd:12' bound to instance 'encoder1' of component 'encoder' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:19]
+INFO: [Synth 8-3491] module 'encoder' declared at 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/Task3.vhd:12' bound to instance 'encoder1' of component 'encoder' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:66]
 INFO: [Synth 8-638] synthesizing module 'encoder' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/Task3.vhd:24]
 INFO: [Synth 8-256] done synthesizing module 'encoder' (1#1) [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/Task3.vhd:24]
-INFO: [Synth 8-3491] module 'encoder' declared at 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/Task3.vhd:12' bound to instance 'encoder2' of component 'encoder' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:93]
-INFO: [Synth 8-3491] module 'encoder' declared at 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/Task3.vhd:12' bound to instance 'encoder3' of component 'encoder' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:94]
-INFO: [Synth 8-3491] module 'encoder' declared at 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/Task3.vhd:12' bound to instance 'encoder4' of component 'encoder' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:95]
-INFO: [Synth 8-3491] module 'debounce' declared at 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/debounce.vhd:7' bound to instance 'd1' of component 'debounce' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:97]
+INFO: [Synth 8-3491] module 'encoder' declared at 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/Task3.vhd:12' bound to instance 'encoder2' of component 'encoder' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:67]
+INFO: [Synth 8-3491] module 'encoder' declared at 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/Task3.vhd:12' bound to instance 'encoder3' of component 'encoder' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:68]
+INFO: [Synth 8-3491] module 'encoder' declared at 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/Task3.vhd:12' bound to instance 'encoder4' of component 'encoder' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:69]
+INFO: [Synth 8-3491] module 'debounce' declared at 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/debounce.vhd:7' bound to instance 'd1' of component 'debounce' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:71]
 INFO: [Synth 8-638] synthesizing module 'debounce' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/debounce.vhd:17]
 INFO: [Synth 8-256] done synthesizing module 'debounce' (2#1) [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/debounce.vhd:17]
-INFO: [Synth 8-3491] module 'debounce' declared at 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/debounce.vhd:7' bound to instance 'd2' of component 'debounce' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:98]
-INFO: [Synth 8-3491] module 'ssd_muxer' declared at 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/ssd_muxer.vhd:13' bound to instance 'mux' of component 'ssd_muxer' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:100]
+INFO: [Synth 8-3491] module 'debounce' declared at 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/debounce.vhd:7' bound to instance 'd2' of component 'debounce' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:72]
+INFO: [Synth 8-3491] module 'ssd_muxer' declared at 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/ssd_muxer.vhd:13' bound to instance 'mux' of component 'ssd_muxer' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:74]
 INFO: [Synth 8-638] synthesizing module 'ssd_muxer' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/ssd_muxer.vhd:33]
 INFO: [Synth 8-256] done synthesizing module 'ssd_muxer' (3#1) [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/imports/Project 2 - Task 2/ssd_muxer.vhd:33]
-WARNING: [Synth 8-614] signal 'sw' is read in the process but is not in the sensitivity list [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:105]
-WARNING: [Synth 8-6014] Unused sequential element number_reg was removed.  [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:136]
-WARNING: [Synth 8-6014] Unused sequential element num1_reg was removed.  [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:139]
-WARNING: [Synth 8-6014] Unused sequential element num2_reg was removed.  [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:141]
-WARNING: [Synth 8-6014] Unused sequential element num3_reg was removed.  [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:143]
-WARNING: [Synth 8-3848] Net dp in module/entity top does not have driver. [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:40]
-INFO: [Synth 8-256] done synthesizing module 'top' (4#1) [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:45]
+WARNING: [Synth 8-614] signal 'sw' is read in the process but is not in the sensitivity list [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:79]
+WARNING: [Synth 8-3848] Net dp in module/entity top does not have driver. [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'top' (4#1) [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:19]
 WARNING: [Synth 8-3331] design top has unconnected port dp
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 390.199 ; gain = 155.160
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 389.203 ; gain = 154.684
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -54,10 +50,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 390.199 ; gain = 155.160
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 389.203 ; gain = 154.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 390.199 ; gain = 155.160
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 389.203 ; gain = 154.684
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -188,22 +184,22 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 725.027 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 723.898 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 725.027 ; gain = 489.988
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 723.898 ; gain = 489.379
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 725.027 ; gain = 489.988
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 723.898 ; gain = 489.379
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 725.027 ; gain = 489.988
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 723.898 ; gain = 489.379
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'debounce'
 INFO: [Synth 8-5544] ROM "sglPulse" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
@@ -214,8 +210,8 @@ INFO: [Synth 8-5544] ROM "ssd3_en" won't be mapped to Block RAM because address 
 INFO: [Synth 8-5544] ROM "ssd2_en" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "ssd1_en" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "ssd0_en" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5545] ROM "hex21" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "hex31" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "hex_in1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "hex_in1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -226,9 +222,9 @@ INFO: [Synth 8-5545] ROM "hex31" won't be mapped to RAM because address size (32
                 deadtime |                            00010 |                              100
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'debounce'
-WARNING: [Synth 8-327] inferring latch for variable 'accumulator_reg' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:110]
+WARNING: [Synth 8-327] inferring latch for variable 'accumulator_reg' [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:83]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 725.027 ; gain = 489.988
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 723.898 ; gain = 489.379
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -246,15 +242,14 @@ Detailed RTL Component Info :
 	   2 Input      4 Bit       Adders := 2     
 	   2 Input      2 Bit       Adders := 1     
 +---Registers : 
-	                4 Bit    Registers := 4     
 	                2 Bit    Registers := 1     
 +---Muxes : 
 	   2 Input     32 Bit        Muxes := 1     
 	   2 Input     31 Bit        Muxes := 3     
 	   5 Input      5 Bit        Muxes := 2     
 	   2 Input      5 Bit        Muxes := 8     
-	   2 Input      4 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 66    
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 64    
 	   3 Input      1 Bit        Muxes := 12    
 	   4 Input      1 Bit        Muxes := 16    
 	   6 Input      1 Bit        Muxes := 4     
@@ -273,13 +268,10 @@ Detailed RTL Component Info :
 	   2 Input     32 Bit       Adders := 1     
 	   2 Input     31 Bit       Adders := 3     
 	   2 Input      4 Bit       Adders := 2     
-+---Registers : 
-	                4 Bit    Registers := 4     
 +---Muxes : 
 	   2 Input     32 Bit        Muxes := 1     
 	   2 Input     31 Bit        Muxes := 3     
-	   2 Input      4 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 4     
 Module encoder 
 Detailed RTL Component Info : 
 +---Muxes : 
@@ -319,16 +311,11 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-INFO: [Synth 8-5545] ROM "hex21" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "hex31" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "hex_in1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "hex_in1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 WARNING: [Synth 8-3331] design top has unconnected port dp
-INFO: [Synth 8-3886] merging instance 'hex4_reg[1]' (FDS) to 'hex4_reg[3]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hex4_reg[2] )
-INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hex4_reg[3] )
-WARNING: [Synth 8-3332] Sequential element (hex4_reg[3]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (hex4_reg[2]) is unused and will be removed from module top.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 725.027 ; gain = 489.988
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 723.898 ; gain = 489.379
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -340,13 +327,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 725.027 ; gain = 489.988
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 723.898 ; gain = 489.379
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 734.809 ; gain = 499.770
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 732.801 ; gain = 498.281
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -358,7 +345,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 774.824 ; gain = 539.785
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 769.547 ; gain = 535.027
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -381,9 +368,9 @@ Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-5396] Clock pin G has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:110]
+WARNING: [Synth 8-5396] Clock pin G has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.srcs/sources_1/new/top.vhd:83]
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 774.824 ; gain = 539.785
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 769.547 ; gain = 535.027
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -396,7 +383,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 774.824 ; gain = 539.785
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 769.547 ; gain = 535.027
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -408,25 +395,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 774.824 ; gain = 539.785
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 769.547 ; gain = 535.027
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 774.824 ; gain = 539.785
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 769.547 ; gain = 535.027
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 774.824 ; gain = 539.785
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 769.547 ; gain = 535.027
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 774.824 ; gain = 539.785
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 769.547 ; gain = 535.027
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -445,12 +432,12 @@ Report Cell Usage:
 |1     |BUFG   |     1|
 |2     |CARRY4 |   287|
 |3     |LUT1   |    18|
-|4     |LUT2   |   193|
+|4     |LUT2   |   190|
 |5     |LUT3   |   334|
-|6     |LUT4   |   181|
-|7     |LUT5   |   278|
-|8     |LUT6   |   676|
-|9     |FDRE   |    83|
+|6     |LUT4   |   178|
+|7     |LUT5   |   291|
+|8     |LUT6   |   662|
+|9     |FDRE   |    70|
 |10    |LDC    |     8|
 |11    |IBUF   |    11|
 |12    |OBUF   |    19|
@@ -461,17 +448,17 @@ Report Instance Areas:
 +------+---------+-----------+------+
 |      |Instance |Module     |Cells |
 +------+---------+-----------+------+
-|1     |top      |           |  2090|
+|1     |top      |           |  2070|
 |2     |  d1     |debounce   |    45|
 |3     |  d2     |debounce_0 |    45|
-|4     |  mux    |ssd_muxer  |    53|
+|4     |  mux    |ssd_muxer  |    36|
 +------+---------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 774.824 ; gain = 539.785
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 769.547 ; gain = 535.027
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 774.824 ; gain = 204.957
-Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 774.824 ; gain = 539.785
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 769.547 ; gain = 200.332
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 769.547 ; gain = 535.027
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 306 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -483,11 +470,11 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   LDC => LDCE: 8 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-44 Infos, 51 Warnings, 39 Critical Warnings and 0 Errors encountered.
+41 Infos, 45 Warnings, 39 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 774.824 ; gain = 552.605
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 769.547 ; gain = 547.840
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/RonakP/Desktop/Vivado/Project 2 - Task 2/computer_assignment_4/computer_assignment_4.runs/synth_1/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 774.824 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Wed Dec  5 14:10:47 2018...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 769.547 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Dec  5 16:11:58 2018...
