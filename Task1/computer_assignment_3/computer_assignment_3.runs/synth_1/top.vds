@@ -1,0 +1,312 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec  4 16:49:39 2018
+# Process ID: 6207
+# Current directory: /home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.runs/synth_1
+# Command line: vivado -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: /home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.runs/synth_1/top.vds
+# Journal file: /home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6215 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1264.512 ; gain = 61.852 ; free physical = 479 ; free virtual = 10791
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/new/top.vhd:22]
+INFO: [Synth 8-3491] module 'Task3' declared at '/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/imports/ddrew/Documents/ECGR 2181/computer_assignment_2/computer_assignment_2/computer_assignment_2.srcs/sources_1/new/Task3.vhd:19' bound to instance 'encoder1' of component 'Task3' [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/new/top.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'Task3' [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/imports/ddrew/Documents/ECGR 2181/computer_assignment_2/computer_assignment_2/computer_assignment_2.srcs/sources_1/new/Task3.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'Task3' (1#1) [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/imports/ddrew/Documents/ECGR 2181/computer_assignment_2/computer_assignment_2/computer_assignment_2.srcs/sources_1/new/Task3.vhd:31]
+INFO: [Synth 8-3491] module 'Task3' declared at '/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/imports/ddrew/Documents/ECGR 2181/computer_assignment_2/computer_assignment_2/computer_assignment_2.srcs/sources_1/new/Task3.vhd:19' bound to instance 'encoder2' of component 'Task3' [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/new/top.vhd:66]
+INFO: [Synth 8-3491] module 'Task3' declared at '/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/imports/ddrew/Documents/ECGR 2181/computer_assignment_2/computer_assignment_2/computer_assignment_2.srcs/sources_1/new/Task3.vhd:19' bound to instance 'encoder3' of component 'Task3' [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/new/top.vhd:67]
+INFO: [Synth 8-3491] module 'Task3' declared at '/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/imports/ddrew/Documents/ECGR 2181/computer_assignment_2/computer_assignment_2/computer_assignment_2.srcs/sources_1/new/Task3.vhd:19' bound to instance 'encoder4' of component 'Task3' [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/new/top.vhd:68]
+INFO: [Synth 8-3491] module 'ssd_muxer' declared at '/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/imports/ddrew/Downloads/ssd_muxer.vhd:13' bound to instance 'mux' of component 'ssd_muxer' [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/new/top.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'ssd_muxer' [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/imports/ddrew/Downloads/ssd_muxer.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'ssd_muxer' (2#1) [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/imports/ddrew/Downloads/ssd_muxer.vhd:33]
+WARNING: [Synth 8-3848] Net dp in module/entity top does not have driver. [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/new/top.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'top' (3#1) [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/sources_1/new/top.vhd:22]
+WARNING: [Synth 8-3331] design top has unconnected port dp
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1309.137 ; gain = 106.477 ; free physical = 495 ; free virtual = 10809
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1309.137 ; gain = 106.477 ; free physical = 494 ; free virtual = 10809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1309.137 ; gain = 106.477 ; free physical = 494 ; free virtual = 10809
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/constrs_1/imports/Downloads/Basys3_Master.xdc]
+Finished Parsing XDC File [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/constrs_1/imports/Downloads/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.srcs/constrs_1/imports/Downloads/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1663.996 ; gain = 0.000 ; free physical = 206 ; free virtual = 10557
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:25 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 280 ; free virtual = 10633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:25 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 281 ; free virtual = 10633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:25 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 283 ; free virtual = 10635
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "B" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ssd3_en" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ssd2_en" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ssd1_en" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ssd0_en" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:26 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 273 ; free virtual = 10626
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	  10 Input      1 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 60    
+	  12 Input      1 Bit        Muxes := 8     
+	   8 Input      1 Bit        Muxes := 4     
+	   9 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Task3 
+Detailed RTL Component Info : 
++---Muxes : 
+	  10 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 14    
+	  12 Input      1 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+Module ssd_muxer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design top has unconnected port dp
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:26 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 258 ; free virtual = 10616
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:35 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 148 ; free virtual = 10492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:35 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 152 ; free virtual = 10492
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:35 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 161 ; free virtual = 10491
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:36 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 160 ; free virtual = 10490
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:36 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 160 ; free virtual = 10490
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:36 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 160 ; free virtual = 10490
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:36 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 160 ; free virtual = 10490
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:36 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 160 ; free virtual = 10490
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:36 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 160 ; free virtual = 10490
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     4|
+|3     |LUT1   |     1|
+|4     |LUT2   |     5|
+|5     |LUT3   |     1|
+|6     |LUT4   |    28|
+|7     |MUXF7  |    14|
+|8     |MUXF8  |     7|
+|9     |FDRE   |    18|
+|10    |IBUF   |    17|
+|11    |OBUF   |    27|
+|12    |OBUFT  |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+----------+------+
+|      |Instance |Module    |Cells |
++------+---------+----------+------+
+|1     |top      |          |   124|
+|2     |  mux    |ssd_muxer |    50|
++------+---------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:36 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 160 ; free virtual = 10490
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1663.996 ; gain = 106.477 ; free physical = 213 ; free virtual = 10543
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:36 . Memory (MB): peak = 1663.996 ; gain = 461.336 ; free physical = 213 ; free virtual = 10543
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 42 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:37 . Memory (MB): peak = 1663.996 ; gain = 461.484 ; free physical = 211 ; free virtual = 10542
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/wes/Documents/computerEngineering/ComputerEngineering-Project-2/Task1/computer_assignment_3/computer_assignment_3.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.13 . Memory (MB): peak = 1688.008 ; gain = 0.000 ; free physical = 211 ; free virtual = 10542
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  4 16:50:22 2018...
