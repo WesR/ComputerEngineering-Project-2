@@ -105,6 +105,7 @@ led <= sw;
 
 process(en, clr)
 begin
+if rising_edge(clk) then
 
 if(en = '1') then
     accumulator <= sw;
@@ -119,11 +120,15 @@ elsif (en = '0') then
       accumulator(7) <= '0';
 end if;
 
+end if;
+
 end process;
 
 process(accumulator)
 begin
 
+if rising_edge(clk) then
+  
     number <= to_integer(signed(accumulator));
     number <= abs(number);
     
@@ -143,6 +148,8 @@ begin
     hex2 <= std_logic_vector(to_unsigned(num2, hex2'length));
     hex3 <= std_logic_vector(to_unsigned(num3, hex3'length));
     hex4 <= std_logic_vector(to_unsigned(num4, hex4'length));
+
+end if;
 
 end process;
 
