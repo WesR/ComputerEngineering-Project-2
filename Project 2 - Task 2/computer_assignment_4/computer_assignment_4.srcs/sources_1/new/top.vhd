@@ -90,10 +90,10 @@ signal w1,w2,w3,w4,w5,w6,w7: std_logic_vector(3 downto 0);
 
 begin
 
-encoder1: encoder port map(hex_in => sw(15 downto 12),A=>w1(0),B=>w2(0),C=>w3(0),D=>w4(0),E=>w5(0),F=>w6(0),G=>w7(0));
-encoder2: encoder port map(hex_in => sw(11 downto 8),A=>w1(1),B=>w2(1),C=>w3(1),D=>w4(1),E=>w5(1),F=>w6(1),G=>w7(1));
-encoder3: encoder port map(hex_in => sw(7 downto 4),A=>w1(2),B=>w2(2),C=>w3(2),D=>w4(2),E=>w5(2),F=>w6(2),G=>w7(2));
-encoder4: encoder port map(hex_in => sw(3 downto 0),A=>w1(3),B=>w2(3),C=>w3(3),D=>w4(3),E=>w5(3),F=>w6(3),G=>w7(3));
+encoder1: encoder port map(hex_in => hex1,A=>w1(0),B=>w2(0),C=>w3(0),D=>w4(0),E=>w5(0),F=>w6(0),G=>w7(0));
+encoder2: encoder port map(hex_in => hex2,A=>w1(1),B=>w2(1),C=>w3(1),D=>w4(1),E=>w5(1),F=>w6(1),G=>w7(1));
+encoder3: encoder port map(hex_in => hex3,A=>w1(2),B=>w2(2),C=>w3(2),D=>w4(2),E=>w5(2),F=>w6(2),G=>w7(2));
+encoder4: encoder port map(hex_in => hex4,A=>w1(3),B=>w2(3),C=>w3(3),D=>w4(3),E=>w5(3),F=>w6(3),G=>w7(3));
 
 d1: debounce port map(CLK_100M => clk, SW => btnL, sglPulse => clr, Sig => open);
 d2: debounce port map(CLK_100M => clk, SW => btnR, sglPulse => en, Sig => open);
